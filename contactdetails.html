@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Contact Details</title>
+    <style>
+         h1{
+            font-size: 30px;
+            font-weight: 600;
+            color: crimson;
+            text-align: center;
+            transition: 8s;
+            text-decoration: underline;
+         }
+         h2{
+            color: blue;
+         }
+         h1:hover{
+            color: aqua;
+         }
+        
+        body{
+            background: #ECF2FF;
+
+        }
+        fieldset{
+            background-color: #5F8D4E;
+        }
+        form{
+            font-size: 20px;
+            text-align: right;
+            text-align: inherit;
+           
+        }
+        legend{
+            border: 3px ridge chocolate;
+            background-color: burlywood;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+      
+    <form action="submit.html">
+        <h1>CONTACT ME</h1>
+        <fieldset>
+            <legend><h2>PERSONAL DETAILS</h2></legend>
+        <label for="fname">FirstName</label>
+        <input type="text" required placeholder="Ex:Teja" id="fname" pattern="[a-zA-Z]{3,10}">
+        <br><br>
+        <label for="lname">LastName</label>
+        <input type="text" required placeholder="Ex:Vantari"  id="lname" pattern="[a-zA-Z]{3,10}">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" required placeholder="Ex:teja@gmail.com" id="email">
+        <br><br>
+        <label for="number">Mobile Number</label>
+        <input type="number" reuired placeholder="Ex:6578995434" id="number" pattern="[6-9]{1}[0-9]{9}">
+        <br><br>
+        <label for="querymessage">Query Message</label>
+        <input type="text" placeholder="Ex:type your response"   id="querymessage">
+    </fieldset>
+        <div>
+         <input type="submit">
+        </div>
+</body>
+</html>

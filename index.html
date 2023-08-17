@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Mainpage</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background: url(background.png);
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px,20%;
+            background: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        .navbar a{
+            font-size: 18px;
+            color: brown;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+            margin-right: 10px;
+            font-size: 20px;
+            transition: 5s;
+        }
+        .navbar a:hover{
+            background-color: #C8E4B2;
+        }
+        .home{
+            height: 0vh;
+            display: flex;
+            align-items: center;
+            padding: 20% 30%;
+            z-index: 100;
+        }
+        .home-content{
+             color: coral;
+             max-width: 1000px;
+             margin-right: 60px;
+        }
+        .home-content h1{
+            font-size: 220%;
+            font-weight: 700; 
+            line-height: 1.2;
+            margin-left: 13px;
+        }
+        .home-content p{
+            font-size: 17px;
+              color: #f6f60e;
+            margin-left: 230px;
+            align-items: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="Logo.png" controls height="120px" width="120px" alt="Pic not found">
+        <nav class="navbar">
+            <a href="aboutme.html">ABOUTME</a>
+            <a href="education.html">EDUCATION</a>
+            <a href="project.html">PROJECT</a>
+            <a href="certificates.html">CERTIFICATES</a>
+            <a href="contactdetails.html">CONTACT ME</a>
+        </nav>
+    </header>      
+        <section class="home">
+            <div class="home-content">
+                 
+                <h1>
+                    WELCOME TO MY PORTFOLIO
+                </h1>
+                <br><br>
+                <p>
+                    <a href="aboutme.html">INAUGURATE</a>
+                </p>
+            </div>
+        </section>
+    
+</body>
+</html>
